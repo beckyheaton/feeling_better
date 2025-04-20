@@ -1,0 +1,19 @@
+
+
+body {
+    overflow: hidden; /* Prevents scrolling */
+    font-size: 17px;
+    color: rgb(28, 44, 0); /* Sets text color*/
+    background-color: rgb(255, 255, 255); /* Sets background color */
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#title {
+    position: fixed;
+    bottom: 30px;
+    text-align: center;
+    left: 50%;                  /* Move to the middle of the screen */
+    transform: translateX(-50%); /* Center it horizontally */
+}
+
