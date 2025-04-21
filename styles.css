@@ -1,19 +1,32 @@
-
-
 body {
-    overflow: hidden; /* Prevents scrolling */
     font-size: 17px;
     color: rgb(28, 44, 0); /* Sets text color*/
     background-color: rgb(255, 255, 255); /* Sets background color */
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
+
+.container {
+    position: relative;
+    margin-top: 200px;           /* Adjust this value to match the height of #title */
+    width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  p {
+    text-align: left;
+    font-size: 0.9rem;
+    margin: 1em 0;
+    line-height: 1.5;
+  }
 
 #title {
     position: fixed;
-    bottom: 30px;
+    top: 30px;                     /* Fix the title to the top of the screen */
+    width: 100%;                /* Ensure it spans the full width */
     text-align: center;
-    left: 50%;                  /* Move to the middle of the screen */
-    transform: translateX(-50%); /* Center it horizontally */
+    left: 50%;                  /* Center horizontally */
+    transform: translateX(-50%);
 }
 
