@@ -8,7 +8,7 @@ body {
 
 .container {
     position: relative;
-    visibility: hidden;
+    /* visibility: hidden; */
     margin-top: 200px;           /* Adjust this value to match the height of #title */
     width: 50%;
     left: 50%;
